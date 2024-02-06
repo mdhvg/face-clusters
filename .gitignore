@@ -6,7 +6,6 @@ useless/*
 *.http
 *.jpg
 *.png
-*.ipynb
 *.log
 *.pkl
 stats.txt
