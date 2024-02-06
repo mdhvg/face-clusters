@@ -4,8 +4,6 @@ faces/*
 imgs/*
 useless/*
 *.http
-*.jpg
-*.png
 *.log
 *.pkl
 stats.txt
