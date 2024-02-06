@@ -1,0 +1,12 @@
+venv
+.env
+faces/*
+imgs/*
+useless/*
+*.http
+*.jpg
+*.png
+*.ipynb
+*.log
+*.pkl
+stats.txt
