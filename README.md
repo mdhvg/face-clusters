@@ -1,8 +1,11 @@
 # Face Clusters
 
+<a href="https://colab.research.google.com/drive/1BoVgfhUg43Mm6rYp9DrV2Al09uu0ksm1?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Notebook In Colab"></a>
+
 In this repository, I've experimented with face recognition by clustering image embeddings. The image embeddings are generated using [Retina-Face](https://github.com/serengil/retinaface) and reduced to a 2 or 3 dimensional representation using [UMAP](https://umap-learn.readthedocs.io/en/latest/) dimensionality reduction algorithm. Later the vectors are labelled into clusters using [DBSCAN](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html) and [HDBSCAN](https://hdbscan.readthedocs.io/en/latest/) algorithms.
 
 ![Clustered image embeddings shown in different colors](static/image.png)
+
 
 ### Project structure
 
